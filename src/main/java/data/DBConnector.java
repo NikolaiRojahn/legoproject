@@ -12,9 +12,9 @@ import java.util.logging.Logger;
  */
 public class DBConnector {
 
-    private static final String URL = "jdbc:mysql://188.166.86.13:3306/lego";
-    private static final String USERNAME = "nikolai";
-    private static final String PASSWORD = "nikolai123";
+    private static final String URL = "jdbc:mysql://localhost:3306/lego";
+    private static final String USERNAME = "connect";
+    private static final String PASSWORD = "connect";
 
     private static Connection singleton;
 
